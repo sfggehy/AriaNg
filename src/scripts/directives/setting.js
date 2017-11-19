@@ -255,7 +255,7 @@
                         }
                     }
 
-                    scope.placeholder = getHumanReadableValue(displayValue);
+                    scope.placeholder = scope.optionValue = getHumanReadableValue(displayValue);
                 });
             }
         };
